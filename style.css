@@ -16,14 +16,36 @@ header h1 {
 
 }
 
-header nav:hover a,
-footer nav:hover a {
-    opacity: 0.5;
+
+
+header nav a:nth-child(1):hover,
+footer nav a:nth-child(1):hover {
+    color: #75f8e2;
 }
 
-header nav a:hover,
-footer nav a:hover {
-    opacity: 1;
+header nav a:nth-child(2):hover,
+footer nav a:nth-child(2):hover {
+    color: #f776e5;
+}
+
+header nav a:nth-child(3):hover,
+footer nav a:nth-child(3):hover {
+    color: #79f3ac;
+}
+
+header nav a:nth-child(4):hover,
+footer nav a:nth-child(4):hover {
+    color: #be69f7;
+}
+
+header nav a:nth-child(5):hover,
+footer nav a:nth-child(5):hover {
+    color: #f85c5c;
+}
+
+header nav a:nth-child(6):hover,
+footer nav a:nth-child(6):hover {
+    color: #e9c229;
 }
 
 header h1:hover {
@@ -147,3 +169,59 @@ section ul {
     margin-bottom:-155px;
     height:55%;
 }
+
+
+.psimg {
+    position: absolute;
+    left: 753px;
+    bottom:237px;
+    object-fit: contain;
+    width: 35px;
+    height: auto;
+}
+
+.psimg2 {
+    position: absolute;
+    left: 36px;
+    bottom:411px;
+    object-fit: contain;
+    width: 35px;
+    height: auto;
+     transform: rotate(180deg);
+}
+
+
+
+.psimg3 {
+    position: absolute;
+    left: 1481px;
+    bottom:174px;
+    object-fit: contain;
+    width: 35px;
+    height: auto;
+}
+
+.psimg4 {
+    position: absolute;
+    left: 860px;
+    bottom:595px;
+    object-fit: contain;
+    width: 35px;
+    height: auto;
+     transform: rotate(180deg);
+}
+
+#psimgedit1{
+    bottom:83px;
+}
+
+#psimgedit2{
+    bottom:205px;
+}
+
+#psimgedit3{
+    bottom:82px;
+}
+
+
+
