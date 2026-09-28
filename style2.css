@@ -124,8 +124,8 @@ main h1 {
     /* background-color: aqua; */
     width:40%;
     height: 30%;
-    position: relative;
-    bottom:43px;
+    position: absolute;
+    bottom:250px;
     left: 0;
     margin-left:50px;
     border-radius:10px;
@@ -139,8 +139,6 @@ main h1 {
     font-family: OCR A Std, monospace;
      font-weight: bold;
       padding-left:5px;
-       display: inline-block;
-       width: 100%;
 }
 
 main section img{
@@ -182,7 +180,7 @@ section ul {
 }
 
 
-/* .psimg {
+.psimg {
     position: absolute;
     left: 753px;
     bottom:237px;
@@ -220,44 +218,7 @@ section ul {
     width: 35px;
     height: auto;
      transform: rotate(180deg);
-} */
-
-
-.psimg {
-    position: absolute;
-    right: -14px;
-    bottom:-16px;
-    width: 35px;
-    height: auto;
 }
-
-.psimg2 {
-    position: absolute;
-    left: -13px;
-    top: -13px;
-    width: 35px;
-    height: auto;
-    transform: rotate(180deg);
-}
-
-.psimg3 {
-    position: absolute;
-    right: -743px;
-    top:225px;
-    width: 35px;
-    height: auto;
-}
-
-.psimg4 {
-    position: absolute;
-    right: -121px;
-    top: -195px;
-    width: 35px;
-    height: auto;
-    transform: rotate(180deg);
-}
-
-
 
 #psimgedit1{
     bottom:83px;
