@@ -145,6 +145,7 @@ main h1 {
 
 main section img{
 
+    position:relative;
     height:100%;
     width:100%;
     object-fit: cover;
@@ -242,16 +243,16 @@ section ul {
 
 .psimg3 {
     position: absolute;
-    right: -743px;
-    top:225px;
+    right:-13px;
+    top:311px;
     width: 35px;
     height: auto;
 }
 
 .psimg4 {
     position: absolute;
-    right: -121px;
-    top: -195px;
+    left:-14px;
+    top: -15px;
     width: 35px;
     height: auto;
     transform: rotate(180deg);
